@@ -22,7 +22,8 @@
 						echo "<tr>";
 						echo "<td> ". $row["idPerson"] . "</td>";
 						echo "<td> ". $row["namePerson"] . "</td>";
-						echo "<td> <a class='btn btn-warning' href='edit.php?id_person=". $row["idPerson"] ."'> Edit</a> &nbsp; <a class='btn btn-danger' href='delete.php?id_person=". $row["idPerson"] ."'> Delete</a></td>";
+						echo "<td> <a class='btn btn-warning' href='edit.php?id_person=". $row["idPerson"] ."'> Edit</a> 
+						&nbsp; <a class='btn btn-danger' href='delete.php?id_person=". $row["idPerson"] ."'> Delete</a></td>";
 						echo "</tr>";
 						echo "</tr>";
 					}

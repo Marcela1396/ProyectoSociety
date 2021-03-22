@@ -4,21 +4,21 @@
         <title> New member of our Society </title>
     </head>
     <body>
-        <h1> New member od our Society  </h1>
+        <h1> New member of our Society  </h1>
         <br>
         <div class="container">
             <form method="POST" action="newresult.php">
                 <div class="mb-3">
-                    <label for="id" class="form-label">ID</label>
+                    <label for="txtId" class="form-label">ID</label>
                     <div class="col-sm-12">
-                        <input type="text" name="txtId" class="form-control" id="id" required> <br>
+                        <input type="text" name="txtId" id="txtId" class="form-control"  required> <br>
                     </div>
                 </div> 
 
                 <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
+                    <label for="txtName" class="form-label">Name</label>
                     <div class="col-sm-12">
-                        <input type="text" name="txtName" class="form-control" id="name" required> <br>
+                        <input type="text" name="txtName" id="txtName" class="form-control"  required> <br>
                     </div>
                 </div>  
                 <div align="center"> 
